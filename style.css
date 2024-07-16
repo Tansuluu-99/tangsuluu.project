@@ -212,7 +212,7 @@
 }
 .mains{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     width: 1440px;
 }
@@ -231,6 +231,7 @@
     height: 356px;
     border: 1px solid rgb(74, 255, 0) ;
     background-color: black;
+    grid-column: span 2;
 }
 .actives h1{
     color: #fff;
@@ -288,6 +289,7 @@
 .move{
     width: 728px;
     height: 356px;
+    grid-column: span 2;
 }
 
 .h1{
